@@ -1,6 +1,6 @@
 # Address-Weather-App
 
-Address-Weather is an app to find and save full brazilian address and its current weathers by typing a ZipCode.  
+In Address-Weather you can find and save Brazilian addresses, checking their current weathers, just by typing a ZipCode.  
 
 ## User Stories
 [] User can enter a Brazilian ZipCode and see automatically its full address and current weather;
