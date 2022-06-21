@@ -4,10 +4,10 @@ In Address-Weather you can find and save Brazilian addresses, checking their cur
 
 ## User Stories
 - [ ] User can enter a Brazilian ZipCode and see automatically its full address and current weather;
-- [] User can save the returned address locally
-- [] User can save the returned address in the cloud (if logged in)
-- [] User can create an account for free
-- [] User can check all saved addresses and manage them (delete or edit)
+- [ ] User can save the returned address locally
+- [ ] User can save the returned address in the cloud (if logged in)
+- [ ] User can create an account for free
+- [ ] User can check all saved addresses and manage them (delete or edit)
 
 ## Techs and Concepts applied
 - Autolayout using Storyboard and Xib
