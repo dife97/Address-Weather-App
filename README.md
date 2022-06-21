@@ -3,7 +3,7 @@
 In Address-Weather you can find and save Brazilian addresses, checking their current weathers, just by typing a ZipCode.  
 
 ## User Stories
-[ ] User can enter a Brazilian ZipCode and see automatically its full address and current weather;
+- [ ] User can enter a Brazilian ZipCode and see automatically its full address and current weather;
 - [] User can save the returned address locally
 - [] User can save the returned address in the cloud (if logged in)
 - [] User can create an account for free
