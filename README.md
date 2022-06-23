@@ -15,7 +15,7 @@ In Address-Weather you can find and save Brazilian addresses, checking their cur
 - Core Data to save address locally
 - Firebase Firestore to save address in the cloud
 - Firebase Auth to manage users
-- MVC as pattern
+- MVVM as pattern
 - Cocoapods 
 
 ## Future refactorings
