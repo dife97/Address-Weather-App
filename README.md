@@ -9,8 +9,8 @@ In Address-Weather you can find and save Brazilian addresses, checking their cur
 - [ ] User can create an account for free
 - [ ] User can check all saved addresses and manage them (delete or edit)
 
-## Techs and Concepts applied
-- Autolayout using Storyboard and Xib
+## Techs and Concepts
+- ViewCode
 - Networking with URLSession for [ViaCEP](https://viacep.com.br/) and Alamofire for current weather in [OpenWeatherAPI](https://openweathermap.org/current)
 - Core Data to save address locally
 - Firebase Firestore to save address in the cloud
