@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		F835C9A328612F6D00AC0F4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F835C9A228612F6D00AC0F4E /* AppDelegate.swift */; };
 		F835C9A528612F6D00AC0F4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F835C9A428612F6D00AC0F4E /* SceneDelegate.swift */; };
-		F835C9A728612F6D00AC0F4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F835C9A628612F6D00AC0F4E /* ViewController.swift */; };
+		F835C9A728612F6D00AC0F4E /* RegisterAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F835C9A628612F6D00AC0F4E /* RegisterAddressViewController.swift */; };
 		F835C9AC28612F7300AC0F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F835C9AB28612F7300AC0F4E /* Assets.xcassets */; };
 		F835C9AF28612F7300AC0F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F835C9AD28612F7300AC0F4E /* LaunchScreen.storyboard */; };
+		F885FE98286611BD004CFE10 /* RegisterAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885FE97286611BD004CFE10 /* RegisterAddressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F835C99F28612F6D00AC0F4E /* Address-Weather-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Address-Weather-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F835C9A228612F6D00AC0F4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F835C9A428612F6D00AC0F4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F835C9A628612F6D00AC0F4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F835C9A628612F6D00AC0F4E /* RegisterAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterAddressViewController.swift; sourceTree = "<group>"; };
 		F835C9AB28612F7300AC0F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F835C9AE28612F7300AC0F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F835C9B028612F7300AC0F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F885FE97286611BD004CFE10 /* RegisterAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterAddressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,8 @@
 			isa = PBXGroup;
 			children = (
 				F835C9A128612F6D00AC0F4E /* Address-Weather-App */,
+				F835C9A228612F6D00AC0F4E /* AppDelegate.swift */,
+				F835C9A428612F6D00AC0F4E /* SceneDelegate.swift */,
 				F835C9A028612F6D00AC0F4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +58,29 @@
 		F835C9A128612F6D00AC0F4E /* Address-Weather-App */ = {
 			isa = PBXGroup;
 			children = (
-				F835C9A228612F6D00AC0F4E /* AppDelegate.swift */,
-				F835C9A428612F6D00AC0F4E /* SceneDelegate.swift */,
-				F835C9A628612F6D00AC0F4E /* ViewController.swift */,
+				F885FE952866117D004CFE10 /* Files */,
+				F885FE962866119E004CFE10 /* RegisterAddress */,
+			);
+			path = "Address-Weather-App";
+			sourceTree = "<group>";
+		};
+		F885FE952866117D004CFE10 /* Files */ = {
+			isa = PBXGroup;
+			children = (
 				F835C9AB28612F7300AC0F4E /* Assets.xcassets */,
 				F835C9AD28612F7300AC0F4E /* LaunchScreen.storyboard */,
 				F835C9B028612F7300AC0F4E /* Info.plist */,
 			);
-			path = "Address-Weather-App";
+			name = Files;
+			sourceTree = "<group>";
+		};
+		F885FE962866119E004CFE10 /* RegisterAddress */ = {
+			isa = PBXGroup;
+			children = (
+				F835C9A628612F6D00AC0F4E /* RegisterAddressViewController.swift */,
+				F885FE97286611BD004CFE10 /* RegisterAddressView.swift */,
+			);
+			path = RegisterAddress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F835C9A728612F6D00AC0F4E /* ViewController.swift in Sources */,
+				F835C9A728612F6D00AC0F4E /* RegisterAddressViewController.swift in Sources */,
 				F835C9A328612F6D00AC0F4E /* AppDelegate.swift in Sources */,
+				F885FE98286611BD004CFE10 /* RegisterAddressView.swift in Sources */,
 				F835C9A528612F6D00AC0F4E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
