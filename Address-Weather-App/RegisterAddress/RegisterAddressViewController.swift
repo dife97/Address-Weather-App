@@ -14,7 +14,7 @@ class RegisterAddressViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = .systemBackground
+        self.view.backgroundColor = .secondarySystemBackground
         
         style()
         layout()
@@ -30,7 +30,8 @@ extension RegisterAddressViewController {
         view.addSubview(registerAddressView)
         
         NSLayoutConstraint.activate([
-            registerAddressView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            registerAddressView.topAnchor.constraint(equalToSystemSpacingBelow: view.safeAreaLayoutGuide.topAnchor, multiplier: 2),
+            registerAddressView.bottomAnchor.constraint(equalToSystemSpacingBelow: view.safeAreaLayoutGuide.bottomAnchor, multiplier: 2),
             registerAddressView.leadingAnchor.constraint(equalToSystemSpacingAfter: view.leadingAnchor, multiplier: 2),
             view.trailingAnchor.constraint(equalToSystemSpacingAfter: registerAddressView.trailingAnchor, multiplier: 2),
         ])

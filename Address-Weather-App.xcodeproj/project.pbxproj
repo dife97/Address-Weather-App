@@ -13,6 +13,8 @@
 		F835C9AC28612F7300AC0F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F835C9AB28612F7300AC0F4E /* Assets.xcassets */; };
 		F835C9AF28612F7300AC0F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F835C9AD28612F7300AC0F4E /* LaunchScreen.storyboard */; };
 		F885FE98286611BD004CFE10 /* RegisterAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885FE97286611BD004CFE10 /* RegisterAddressView.swift */; };
+		F885FEE12867FA3A004CFE10 /* TextfieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885FEE02867FA3A004CFE10 /* TextfieldView.swift */; };
+		F885FEE32867FD07004CFE10 /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885FEE22867FD07004CFE10 /* Factories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F835C9AE28612F7300AC0F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F835C9B028612F7300AC0F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F885FE97286611BD004CFE10 /* RegisterAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterAddressView.swift; sourceTree = "<group>"; };
+		F885FEE02867FA3A004CFE10 /* TextfieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldView.swift; sourceTree = "<group>"; };
+		F885FEE22867FD07004CFE10 /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				F835C9A128612F6D00AC0F4E /* Address-Weather-App */,
-				F835C9A228612F6D00AC0F4E /* AppDelegate.swift */,
-				F835C9A428612F6D00AC0F4E /* SceneDelegate.swift */,
 				F835C9A028612F6D00AC0F4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,6 +62,9 @@
 			children = (
 				F885FE952866117D004CFE10 /* Files */,
 				F885FE962866119E004CFE10 /* RegisterAddress */,
+				F835C9A228612F6D00AC0F4E /* AppDelegate.swift */,
+				F835C9A428612F6D00AC0F4E /* SceneDelegate.swift */,
+				F885FEE22867FD07004CFE10 /* Factories.swift */,
 			);
 			path = "Address-Weather-App";
 			sourceTree = "<group>";
@@ -79,6 +84,7 @@
 			children = (
 				F835C9A628612F6D00AC0F4E /* RegisterAddressViewController.swift */,
 				F885FE97286611BD004CFE10 /* RegisterAddressView.swift */,
+				F885FEE02867FA3A004CFE10 /* TextfieldView.swift */,
 			);
 			path = RegisterAddress;
 			sourceTree = "<group>";
@@ -153,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F885FEE32867FD07004CFE10 /* Factories.swift in Sources */,
 				F835C9A728612F6D00AC0F4E /* RegisterAddressViewController.swift in Sources */,
 				F835C9A328612F6D00AC0F4E /* AppDelegate.swift in Sources */,
 				F885FE98286611BD004CFE10 /* RegisterAddressView.swift in Sources */,
+				F885FEE12867FA3A004CFE10 /* TextfieldView.swift in Sources */,
 				F835C9A528612F6D00AC0F4E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
